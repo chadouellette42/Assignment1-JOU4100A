@@ -1,0 +1,347 @@
+html, body {
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    font-family: "Times New Roman", serif;
+    color: sandybrown;
+    
+}
+
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+.top-bar {
+    max-width: 1000px;
+    position: relative;
+    margin-left: 180px;
+    margin-right: auto;
+}
+
+.logo {
+   font-size: 35px;
+   position: absolute;
+   padding: 20px 3px 10px 10px;
+   z-index: 0;
+   color: yellowgreen;
+   font-weight: bold;
+    
+}
+
+.top-menu {
+   background-color: darkgray;
+   position: absolute;
+   top: 92px;
+   z-index: 1;
+   width: 100%;
+   border-bottom-style: solid;
+   border-top-style: groove 
+   border-bottom-width: solid;
+    border-top-width: thick
+   border-color: orange;   
+      
+}
+
+.top-menu ul {
+    list-style-type: none;
+    font-size: 20px; 
+    float: center;
+    margin-right: 20px;
+}
+
+.top-menu li {
+    display: inline-block;
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 1px;
+
+        
+}
+
+.top-menu li a:link, .top-menu li a:visited {
+    color: white;
+    text-decoration: none;
+    padding: 20px 20px 20.5px 20px;
+    background-color: silver;
+    border-radius: 1000%;
+}
+
+.top-menu li a:hover {
+    background-color: orange;
+    background-blend-mode: darken;
+    
+}
+
+.current-page-link {
+    background-color: green;
+}
+
+.page-content {
+    position: relative;
+    top: 145px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+
+.main-section {
+    padding: 10px 5px 5px 5px;
+    font-size: 16px;
+}
+
+.main-section h1, .main-section h2 {
+    color: yellow;
+}
+
+.main-section p {
+    color: yellow;
+    font-style: bold;
+    font-size: 16pt;
+    line-height: 1.5;
+    padding-top: 10px
+    
+    
+    
+}
+
+.main-section figure, .main-section img {
+    display: block;
+    margin: auto;
+    width: 800px;
+}
+
+.footer {
+    position: relative;
+    top: 140px;
+    z-index: 3;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#3f3c3c;
+}
+
+.footer-content {
+    padding: 5px 5px 5px 20px;
+    color: white;
+    text-align: center;
+    
+}
+
+.footer-content a:link {
+    color: yellow;
+    text-decoration: none;
+}
+    .footer-content a:hover {
+        background-color:yellow;
+            color: black;
+            
+    }
+    
+}
+body {
+    background-color: navajowhite;
+}
+body {
+    background-image: url(https://images.unsplash.com/photo-1490173032805-2f6274a01334?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4e836212ceb9e1cf75aa4eeb12bb792f&auto=format&fit=crop&w=500&q=60);
+}
+-- PHOTOS -- 
+.main-section figure, .main-section img {
+    display: inline-block;
+    margin: 0 20px 20px 0;
+    width: 400px;
+    float: left;
+    box-shadow: 8px 0px 10px #aaa;
+    background-color: floralwhite;
+}
+.column {
+    float: left;
+    width: 48%;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* social buttons on homepage */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius:1000%;
+}
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    border-radius:50%;
+}
+/* Instagram */
+.fa-instagram {
+    background: #bc2a8d;
+    color: white;
+    border-radius:50%;
+}
+/* Spotify */
+.fa-spotify {
+    color:white;
+    background:#84bd00;
+    border-radius:50%;
+}
+}
+.footer-content a:hover {
+    background-color: gold;
+    color: gold;
+}
+
+/* this is where the slideshow style begins */
+
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+html, body { background: #333 url("https://codepen.io/images/classy_fabric.png"); }
+
+.slides {
+    padding: 0;
+    width: 609px;
+    height: 420px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+
+.slides * {
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+.slides input { display: none; }
+
+.slide-container { display: block; }
+
+.slide {
+    top: 0;
+    opacity: 0;
+    width: 609px;
+    height: 420px;
+    display: block;
+    position: absolute;
+
+    transform: scale(0);
+
+    transition: all .7s ease-in-out;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.nav label {
+    width: 200px;
+    height: 100%;
+    display: none;
+    position: absolute;
+
+	  opacity: 0;
+    z-index: 9;
+    cursor: pointer;
+
+    transition: opacity .2s;
+
+    color: #FFF;
+    font-size: 156pt;
+    text-align: center;
+    line-height: 380px;
+    font-family: "Varela Round", sans-serif;
+    background-color: rgba(255, 255, 255, .3);
+    text-shadow: 0px 0px 15px rgb(119, 119, 119);
+}
+
+.slide:hover + .nav label { opacity: 0.5; }
+
+.nav label:hover { opacity: 1; }
+
+.nav .next { right: 0; }
+
+input:checked + .slide-container  .slide {
+    opacity: 1;
+
+    transform: scale(1);
+
+    transition: opacity 1s ease-in-out;
+}
+
+input:checked + .slide-container .nav label { display: block; }
+
+.nav-dots {
+	width: 100%;
+	bottom: 9px;
+	height: 11px;
+	display: block;
+	position: absolute;
+	text-align: center;
+}
+
+.nav-dots .nav-dot {
+	top: -5px;
+	width: 11px;
+	height: 11px;
+	margin: 0 4px;
+	position: relative;
+	border-radius: 100%;
+	display: inline-block;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.nav-dots .nav-dot:hover {
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+input#img-1:checked ~ .nav-dots label#img-dot-1,
+input#img-2:checked ~ .nav-dots label#img-dot-2,
+input#img-3:checked ~ .nav-dots label#img-dot-3,
+input#img-4:checked ~ .nav-dots label#img-dot-4,
+input#img-5:checked ~ .nav-dots label#img-dot-5,
+input#img-6:checked ~ .nav-dots label#img-dot-6 {
+	background: rgba(0, 0, 0, 0.8);
+}
+
+iframe{
+    width: 450px;
+    height: 300px;
+    border-style: solid;
+    border-color: floralwhite;
+    border-width: thick;
+    background: transparent;
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+    
+    
+    
+}
